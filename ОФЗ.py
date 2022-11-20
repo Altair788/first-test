@@ -16,7 +16,7 @@ def determine_bond_yield(sum, pricenow, middle_price, kuponza_1ofz, ostat_kol_ku
     return ('Доходность такой покупки составит', round(doxod, 1), '%')
 
 
-sum = int(input(''Введите количество офз '))
+sum = int(input(''Введите количество офз ''))
 pricenow = float(input('Введите текущую стоимость ОФЗ за 1 штуку '))
 middle_price = float(input('введите среднюю цену покупки '))
 kuponza_1ofz = float(input("Введите размер купона за 1 офз "))
